@@ -26,7 +26,7 @@ def get_db_connection():
             port=3306,
             user="root",              # замените на вашего пользователя MySQL
             # password="your_password", # замените на ваш пароль
-            # database="your_database"  # замените на имя вашей БД
+            database="database"  # замените на имя вашей БД
         )
         if conn.is_connected():
             return conn

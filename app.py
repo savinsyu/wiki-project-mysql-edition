@@ -37,10 +37,6 @@ app.register_blueprint(about.bp)
 app.register_blueprint(services.bp)
 app.register_blueprint(search.bp)
 
-
-
-
-
 # RUS Пишем логику для отображения страницы с 404 ошибкой
 # ENG Handling 404 Error in Flask
 @app.errorhandler(404)
